@@ -31,7 +31,6 @@ try:
     button.click()
 
 
-
 finally:
     # успеваем скопировать код за 30 секунд
     time.sleep(10)
