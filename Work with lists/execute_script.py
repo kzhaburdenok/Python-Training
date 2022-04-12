@@ -18,7 +18,6 @@ try:
     x=x_element.text
     y=calc(x)
 
-#test
     answer = browser.find_element(By.ID, "answer")
     answer.send_keys(y)
     checkBox = browser.find_element(By.ID, "robotCheckbox")
